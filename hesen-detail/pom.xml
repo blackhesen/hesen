@@ -21,4 +21,34 @@
   	<module>hesen-app-client</module>
   </modules>
   
+  <dependencies>
+  	<dependency>
+  		<groupId>com.hesen</groupId>
+  		<artifactId>hesen-common</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+        <!-- Import dependency management from Spring Boot -->
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>1.5.8.RELEASE</version>
+        <type>pom</type>
+        <!--      <scope>runtime</scope>-->
+    </dependency>
+  	<dependency>
+  		<groupId>org.springframework.boot</groupId>
+  		<artifactId>spring-boot-starter-data-redis</artifactId>
+  		<version>1.5.8.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.aspectj</groupId>
+  		<artifactId>aspectjweaver</artifactId>
+  		<version>1.8.11</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.aspectj</groupId>
+  		<artifactId>aspectjrt</artifactId>
+  		<version>1.8.10</version>
+  	</dependency>
+  </dependencies>
 </project>
